@@ -11,13 +11,37 @@
 </head>
 
 <body>
-    <header class="container-fluid p-5 bg-primary text-white text-center">
+    <header class="container-fluid p-1 bg-primary text-white text-center">
         <h1>John C. Jamieson's<br>Weather Dashboard</h1>
     </header>
 
     <main class="row">
-        <div class="col-12 col-md-4 text-center">.col-6 .col-md-4</div>
-        <div class="col-12 col-md-8 text-center">.col-6 .col-md-4</div>
+        <div class="col-12 col-md-5">
+            <form class="bg-white my-4 p-4 rounded">
+                <div class="form-group">
+                    <label for="cityName" class="my-1 display-6">Search for a City:</label>
+                    <input id="cityName"
+                           class="form-control my-1"
+                           type="text"
+                           placeholder="Toronto"
+                           required="">
+                    <input type="submit" class="container btn btn-primary my-1" value="Search">
+                    <hr class="my-1">
+                    <button type="button" class="container btn btn-secondary my-1">Secondary</button>
+                    <button type="button" class="container btn btn-secondary my-1">Secondary</button>
+                    <button type="button" class="container btn btn-secondary my-1">Secondary</button>
+                    <button type="button" class="container btn btn-secondary my-1">Secondary</button>
+                    <button type="button" class="container btn btn-secondary my-1">Secondary</button>
+                    <button type="button" class="container btn btn-secondary my-1">Secondary</button>
+                    <button type="button" class="container btn btn-secondary my-1">Secondary</button>
+                    <button type="button" class="container btn btn-secondary my-1">Secondary</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-12 col-md-7 text-center">
+
+        </div>
     </main>
 
     <!-- Bootstrap via CDN -->
